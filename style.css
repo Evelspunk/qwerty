@@ -1,0 +1,114 @@
+body{
+  background: url(christmas-red-brown-floral-wallpaper.jpg) ;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.taim{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  font-size: 1vw;
+
+}
+.zagolovok{
+  font-family: Comic Sans MS;
+  font-size: 3vw;
+  color: #ffffff;
+  position: relative;
+ 
+ 
+
+}
+.tam{
+  color: #98c4c5;
+  
+}
+.tam:hover{
+  color: #fdd74d;
+
+}
+.boxsneg{
+  height: 10vw;
+  width: 11vw;
+  position: absolute;
+  top: 39vw;
+  left: 80vw;
+  animation-name: snegir;
+  animation-duration: 6s;
+
+}
+.animsneg2{
+  display: flex;
+}
+.boxsneg2{
+  height: 7vw;
+  width: 9vw;
+  position: absolute;
+  top: 5vw;
+  left: 8vw;
+}
+.animsneg2:hover .boxsneg2{
+  transform:translate( 0px, -45px ) ;
+  transition: all 0.4s linear;
+}
+@keyframes snegir{
+  0%{
+    transform: translate(20px,0px);
+}
+25%{
+    transform: translate(0px,-30px);
+}
+50%{
+  transform: translate(-30px,0px);
+}
+100%{
+  transform: translate(20px,0px);
+}
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(4,20vw);
+  grid-template-rows: repeat(1,20vw);
+  overflow: hidden;
+  float: none;
+  width: 20vw;
+ 
+}
+.boxsneg3{
+  height: 10vw;
+  width: 11vw;
+  position: absolute;
+  top: 38.3vw;
+  left: 2vw;
+}
+.but{
+  height: 5vw;
+  width: 5vw;
+}
+
+.gg{
+  width: 100%;
+}
+.box1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27vw;
+  left:12vw ;
+}
+.boxvetka{
+  height: 15vw;
+  width: 10vw;
+  position: absolute;
+  top: 8vw;
+  left: 83vw;
+}
+.boxsneg3:hover{
+  rotate: 3deg;
+  transition: all 0.1s linear;
+}
